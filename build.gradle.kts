@@ -22,6 +22,7 @@ dependencies {
     implementation("io.ktor:ktor-server-websockets")
     implementation("io.ktor:ktor-server-netty")
     implementation("io.ktor:ktor-server-cors")
+    implementation("io.ktor:ktor-serialization-jackson")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-server-config-yaml")
     testImplementation("io.ktor:ktor-server-test-host")
